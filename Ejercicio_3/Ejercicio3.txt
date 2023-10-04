@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Ejercicio3{
+	public static void main(String[]args ){
+	Scanner lector = new Scanner(System.in);
+	
+	int edad;
+
+	
+	System.out.println("Dime tu edad =");
+	edad = Integer.parseInt(lector.nextLine());
+			
+		if(18 > edad & edad == 18 )
+		System.out.println("El primer numero es mayor que el segundo" );
+		
+		else(edad < 18)
+		System.out.println("No es mayor de edad" );
+		
+		
+	lector.close();
+	}
+}
